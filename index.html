@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <title>Calculator Online</title>
+</head>
+<body>
+    <h1>Calculator Online</h1>
+    <section id="calculator_body">
+        <div id="display_box">
+            <div id="display_text"></div>
+            <div id="display_result"></div>
+        </div>
+        <div class="gt-4">
+            <button onClick='Digit(this.textContent)'>1</button>
+            <button onClick='Digit(this.textContent)'>2</button>
+            <button onClick='Digit(this.textContent)'>3</button>
+            <button onClick='Digit(this.textContent)'>+</button>
+        </div>
+        <div class="gt-4">
+            <button onClick='Digit(this.textContent)'>4</button>
+            <button onClick='Digit(this.textContent)'>5</button>
+            <button onClick='Digit(this.textContent)'>6</button>
+            <button onClick='Digit(this.textContent)'>-</button>
+        </div>
+        <div class="gt-4">
+            <button onClick='Digit(this.textContent)'>7</button>
+            <button onClick='Digit(this.textContent)'>8</button>
+            <button onClick='Digit(this.textContent)'>9</button>
+            <button onClick='Digit(this.textContent)'>*</button>
+        </div>
+        <div class="gt-4">
+            <button onClick='Undo()'><-</button>
+            <button onClick='Digit(this.textContent)'>0</button>
+            <button onClick='Clear()'>CE</button>
+            <button onClick='Digit(this.textContent)'>/</button>
+        </div>
+        <button id="calculate" onClick='Calculate()'>=</button>
+
+    </section>
+</body>
+</html>
